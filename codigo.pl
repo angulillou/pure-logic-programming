@@ -1,9 +1,4 @@
 
-alumno_prode('Pinedo','Angulo','Miguel','17i043').
-alumno_prode('Alonso','Aldea','Paula','16I041').
-alumno_prode('','Vazquez','Antonio','').
-
-
 %----------------------PREDICADOS AUXILIARES---------------------------------------------
 
 nat(0).
@@ -67,7 +62,7 @@ basic_building([N|L]):-
 	esNivel(N),
 	basic_building(L).
 
-%DEFINIR TIPO: X es un edificio como el anterior pero además todos los niveles deben tener el mismo número de viviendas
+%DEFINIR TIPO: X es un edificio como el anterior pero ademÃ¡s todos los niveles deben tener el mismo nÃºmero de viviendas
 
 building(X) :-
 	basic_building(X),
